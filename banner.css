@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #555555;
+    font-family: Georgia, sans-serif, 'roboto';
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+
+}
+#main{
+    background-color: #7777;
+}
+#subtitle{
+ 
+    background: #36393e;
+    text-align: center;
+    margin: auto;
+    width: 100vmin;
+    padding: inherit;
+    
+
+}
+#title{
+    font-size: 5rem;
+    padding: 0;
+    background:	#36393e ;
+    text-shadow: 3px 12px 5px #0d0d0e;
+    line-height: 1.3em;
+
+}
+
+p {
+    max-width: 550px;
+    margin: auto;
+    text-align: inherit;
+    line-height: 2em;
+    font-style: italic;
+}
+.paragraph{
+    font-size: 2vmin;
+    font-weight: normal;
+}
+#img-caption{
+    font-size: 15px;
+    font-weight: bold;
+}
+#img-div{
+    width: 960px;
+    margin: 15px auto;
+    outline: 1px solid rgb(252, 249, 249);
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#tribute-link{
+    text-decoration: none;
+    color: white;
+}
+#tribute-info{
+    padding: 5px;
+    text-align: left;
+    background-color: #7777;
+}
+ul {
+    padding: auto;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul{
+    max-width: 550px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    line-height: 2.5em;
+} 
+footer{
+    padding: 2rem;
+    max-width:fit-content;
+    margin: auto;
+    text-align: inherit;
+    line-height: 2em;
+}
+footer p{
+    margin: 0;
+    text-align: initial;
+}
+footer a {
+    transition: 0.3s;
+    color: white;
+}
